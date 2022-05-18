@@ -1,0 +1,68 @@
+{
+  "name": "mapping",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.11.36",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "include-media": "^1.4.10",
+    "framer-motion": "^3.10.0",
+    "normalize.scss": "^0.1.0",
+    "query-string": "^7.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-leaflet": "^3.2.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.51.0",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.6.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress": "export NODE_ENV=development && cypress open",
+    "format": "prettier --write \"src/**/*.{js,scss,ts,tsx}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.7.6",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-transition-group": "^4.4.4",
+    "@types/styled-components": "^5.1.18",
+    "cypress": "^9.6.1",
+    "cypress-axe": "^0.14.0",
+    "prettier": "^2.6.2",
+    "react-leaflet": "3.2.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid"
+  }
+}
