@@ -1,6 +1,6 @@
 # Example React & Typescript Mapping
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3f5839d0-e88d-4683-8c45-315e7aa033cd/deploy-status)](https://app.netlify.com/sites/events-listing/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2b082f54-be29-47ce-9644-2e08437fed1f/deploy-status)](https://app.netlify.com/sites/leaflet-mapping/deploys)
 
 An example mapping app.
 
