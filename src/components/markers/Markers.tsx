@@ -30,9 +30,7 @@ export default function Markers() {
           const hasIcon = markerIcons.filter(icon => iconTid === icon)
 
           const icon = L.icon({
-            iconUrl: `${
-              window.location.origin
-            }/wp-content/themes/chilterns/dist/img/map/pin/${
+            iconUrl: `https://demos.harryedwards.dev/wp-content/themes/chilterns/dist/img/map/pin/${
               hasIcon ? +hasIcon : 0
             }.svg`,
             iconSize: [28, 40],
